@@ -5,7 +5,7 @@ from typing import List, Dict
 
 # Configuration - Using Qwen2.5-Coder via local Ollama instance
 # Ensure Ollama is running and you have run: ollama pull qwen2.5-coder:7b
-MODEL_NAME = "qwen2.5-coder:7b"
+MODEL_NAME = "qwen2.5-coder:1.5b"
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
 
 def call_local_llm(prompt: str, system_prompt: str = "") -> str:
